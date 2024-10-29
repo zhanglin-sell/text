@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int sum=0, num=1 ;
+    for  (num=1;num<=1000;num++){
+            if (num%3==0)
+            sum=num+sum ;
+    }
+    printf("1000以内的自然数中3的倍数之和=%d\n", sum);
+    return 0;
+}
