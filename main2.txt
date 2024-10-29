@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define N 20
+int main(){
+    int i, num, max1, min1, max2, min2;
+    printf("输入第一个整数：")；
+    scanf("%d", &num);
+    max=num;
+    for (i=1; i<=N; i++)
+       if (num>=0)
+       scanf ("%d",&num);
+       if(num>max1) max1=nim;
+    return 0;
+}
